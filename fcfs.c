@@ -34,7 +34,7 @@ int main()
       time =arr_time[i]+ bur_time[i];
       com_time[i] = time;
     }
-    if (i >= 0)
+    if (i >0)
     {
       if (arr_time[i] <= com_time[i - 1])
       {
